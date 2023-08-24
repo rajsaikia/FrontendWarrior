@@ -1,0 +1,16 @@
+.four-blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.block {
+    width: calc(50% - 20px);
+    /* Adjust the width as needed */
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
